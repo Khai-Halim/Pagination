@@ -1,0 +1,28 @@
+//RESET
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+
+
+#page{
+    height: 500px;
+    width: 500px;
+    border: solid black;
+}
+
+#pagination{
+    border: solid black;
+    a{
+        display: inline-block;
+        text-decoration: none;
+        background: rgb(191, 255, 213);
+        padding: 0.2rem 0.4rem;
+        &:last-child{
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        &:first-child{
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+    }
+}
